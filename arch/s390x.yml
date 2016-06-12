@@ -1,0 +1,7 @@
+arch: s390x
+endian: big
+reg: 64
+cpp:
+  - __s390__
+  - __s390x__
+  - __zarch__

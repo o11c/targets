@@ -1,0 +1,16 @@
+triples:
+  - i386-windows-msvc
+  - i486-windows-msvc
+  - i586-windows-msvc
+  - i686-windows-msvc
+  - i786-windows-msvc
+variants:
+  - x86_64-windows-msvc
+variant_flags: -m32
+
+import:
+  - arch/i386
+  - kernel/windows
+  - env/msvc
+  - model/ilp32
+  - obj/coff

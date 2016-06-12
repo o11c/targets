@@ -1,0 +1,7 @@
+# If running cygwin under WINE, use wine-staging and beware of
+# https://cygwin.com/ml/cygwin/2016-02/msg00296.html
+libc: newlib
+cpp:
+  - __CYGWIN__
+  - __unix__
+  - __STDC_HOSTED__ == 1

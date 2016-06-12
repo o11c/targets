@@ -1,0 +1,10 @@
+triples:
+  - s390x-linux-gnu
+
+default_char_sign: unsigned
+
+import:
+  - arch/s390x
+  - misc/linux-gnu
+  - model/lp64
+  - obj/elf

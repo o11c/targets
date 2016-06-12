@@ -1,0 +1,13 @@
+triples:
+  - i386-freebsd
+  - i486-freebsd
+  - i586-freebsd
+  - i686-freebsd
+  - i786-freebsd
+
+import:
+  - arch/i386
+  - kernel/freebsd
+  - env/freebsd
+  - model/ilp32
+  - obj/elf

@@ -1,0 +1,13 @@
+triples:
+  - i386-netbsd
+  - i486-netbsd
+  - i586-netbsd
+  - i686-netbsd
+  - i786-netbsd
+
+import:
+  - arch/i386
+  - kernel/netbsd
+  - env/netbsd
+  - model/ilp32
+  - obj/elf

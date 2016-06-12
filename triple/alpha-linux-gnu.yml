@@ -1,0 +1,8 @@
+triples:
+  - alpha-linux-gnu
+
+import:
+  - arch/alpha
+  - misc/linux-gnu
+  - model/lp64
+  - obj/elf

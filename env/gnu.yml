@@ -1,0 +1,7 @@
+libc: glibc
+cpp_require:
+  - "#include <limits.h>"
+cpp:
+  - __unix__
+  - __GLIBC__
+  - __STDC_HOSTED__ == 1

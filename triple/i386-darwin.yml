@@ -1,0 +1,13 @@
+triples:
+  - i386-darwin
+  - i486-darwin
+  - i586-darwin
+  - i686-darwin
+  - i786-darwin
+
+import:
+  - arch/i386
+  - kernel/xnu
+  - env/darwin
+  - model/ilp32
+  - obj/macho

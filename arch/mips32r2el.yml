@@ -1,0 +1,6 @@
+arch: mips32r2el
+endian: little
+reg: 32
+cpp:
+  - _MIPS_ARCH_MIPS32R2
+  - _MIPSEL

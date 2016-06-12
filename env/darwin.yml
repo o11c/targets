@@ -1,0 +1,8 @@
+libc: darwin
+cpp:
+  - __unix__
+  - __APPLE__
+  - __APPLE_CC__
+  - __ENVIRONMENT_MAC_OS_X_VERSION_MIN_REQUIRED__
+  - __STDC_HOSTED__ == 1
+  - __STATIC__ || __DYNAMIC__

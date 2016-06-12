@@ -1,0 +1,9 @@
+triples:
+  - msp430
+
+import:
+  - arch/msp430
+  - kernel/none
+  - env/none
+  - model/ip16
+  - obj/elf

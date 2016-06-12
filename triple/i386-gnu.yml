@@ -1,0 +1,13 @@
+triples:
+  - i386-gnu
+  - i486-gnu
+  - i586-gnu
+  - i686-gnu
+  - i786-gnu
+
+import:
+  - arch/i386
+  - kernel/hurd
+  - env/gnu
+  - model/ilp32
+  - obj/elf

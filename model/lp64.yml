@@ -1,0 +1,9 @@
+# 64-bit model commonly used on most Unixen
+int: 32
+ptr: 64
+size: 64
+reg: 64
+long: 64
+
+cpp:
+  - __LP64__

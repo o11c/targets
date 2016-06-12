@@ -1,0 +1,21 @@
+triples:
+  - i386-elf
+  - i486-elf
+  - i586-elf
+  - i686-elf
+  - i786-elf
+
+variants:
+  - x86_64-elf
+  - i386-gnu
+  - i386-linux-gnu
+  - x86_64-linux-gnu
+  - x86_64-linux-gnux32
+variant_flags: -m32 -ffreestanding -nostdlib -nostdinc
+
+import:
+  - arch/i386
+  - kernel/none
+  - env/none
+  - model/ilp32
+  - obj/elf

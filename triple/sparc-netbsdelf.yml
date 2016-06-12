@@ -1,0 +1,9 @@
+triples:
+  - sparc-netbsdelf
+
+import:
+  - arch/sparc
+  - kernel/netbsd
+  - env/netbsd
+  - model/ilp32
+  - obj/elf

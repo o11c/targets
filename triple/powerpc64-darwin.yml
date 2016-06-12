@@ -1,0 +1,9 @@
+triples:
+  - powerpc64-darwin
+
+import:
+  - arch/ppc64be
+  - kernel/xnu
+  - env/darwin
+  - model/lp64
+  - obj/macho

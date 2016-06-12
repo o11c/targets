@@ -1,0 +1,10 @@
+triples:
+  - x86_64-freebsd
+  - amd64-freebsd
+
+import:
+  - arch/x86_64
+  - kernel/freebsd
+  - env/freebsd
+  - model/lp64
+  - obj/elf

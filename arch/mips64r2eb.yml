@@ -1,0 +1,6 @@
+arch: mips64r2eb
+endian: big
+reg: 64
+cpp:
+  - _MIPS_ARCH_MIPS64R2
+  - _MIPSEB

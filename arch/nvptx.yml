@@ -1,0 +1,6 @@
+arch: nvptx
+endian: little
+reg: 32
+cpp:
+  - __NVPTX__
+  - __PTX__

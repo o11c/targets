@@ -1,0 +1,15 @@
+triples:
+  - i386-msdosdjgpp
+  - i486-msdosdjgpp
+  - i586-msdosdjgpp
+  - i686-msdosdjgpp
+  - i786-msdosdjgpp
+
+import:
+  - arch/i386
+  - kernel/msdos
+  - env/djgpp
+  # Note that unlike all others, uintptr_t and size_t are long
+  # even though int is smaller rank and the same value.
+  - model/ilp32
+  - obj/coff

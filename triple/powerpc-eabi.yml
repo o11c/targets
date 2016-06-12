@@ -1,0 +1,16 @@
+triples:
+  - powerpc-eabi
+
+variants:
+  - powerpc-freebsd
+  - powerpc-linux-gnu
+variant_flags: -meabi -ffreestanding -nostdlib -nostdinc
+
+default_char_sign: unsigned
+
+import:
+  - arch/ppc32be
+  - kernel/none
+  - env/none
+  - model/ilp32
+  - obj/elf

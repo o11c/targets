@@ -1,0 +1,13 @@
+triples:
+  - x86_64-linux-gnux32
+  - amd64-linux-gnux32
+variants:
+  - i386-linux-gnu
+  - x86_64-linux-gnu
+variant_flags: -mx32
+
+import:
+  - arch/x86_64
+  - misc/linux-gnu
+  - model/ilp32
+  - obj/elf

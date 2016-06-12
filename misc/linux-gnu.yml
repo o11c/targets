@@ -1,0 +1,6 @@
+import:
+  - kernel/linux
+  - env/gnu
+
+cpp:
+  - __gnu_linux__

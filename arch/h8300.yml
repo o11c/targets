@@ -1,0 +1,5 @@
+arch: h8300
+endian: big
+reg: 16
+cpp:
+  - __H8300__

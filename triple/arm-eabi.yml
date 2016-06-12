@@ -1,0 +1,17 @@
+triples:
+  - arm-eabi
+  - arm-none-eabi
+
+variants:
+  - arm-linux-gnueabi
+variant_flags: -ffreestanding -nostdlib -nostdinc
+
+default_char_sign: unsigned
+
+import:
+  # oddly, several of the hardfloat macros are defined too ...
+  - arch/armel_sf
+  - kernel/none
+  - env/none
+  - model/ilp32
+  - obj/elf

@@ -1,0 +1,8 @@
+triples:
+  - m68k-linux-gnu
+
+import:
+  - arch/m68k
+  - misc/linux-gnu
+  - model/ilp32
+  - obj/elf

@@ -1,0 +1,9 @@
+triples:
+  - powerpc-darwin
+
+import:
+  - arch/ppc32be
+  - kernel/xnu
+  - env/darwin
+  - model/ilp32
+  - obj/macho

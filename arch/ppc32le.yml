@@ -1,0 +1,8 @@
+arch: ppc32le
+endian: little
+reg: 32
+cpp:
+  - __powerpc__
+  - __PPC__
+  - _ARCH_PPC
+  - _LITTLE_ENDIAN

@@ -1,0 +1,5 @@
+# The Mach-O object file format is used primarily on Darwin (OS X)
+obj: macho
+
+cpp:
+  - __MACH__

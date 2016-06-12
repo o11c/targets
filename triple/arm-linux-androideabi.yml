@@ -1,0 +1,11 @@
+triples:
+  - arm-linux-androideabi
+
+default_char_sign: unsigned
+
+import:
+  - arch/armel_sf
+  - kernel/linux
+  - env/android
+  - model/ilp32
+  - obj/elf

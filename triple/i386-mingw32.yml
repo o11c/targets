@@ -1,0 +1,26 @@
+triples:
+  - i386-mingw32
+  - i486-mingw32
+  - i586-mingw32
+  - i686-mingw32
+  - i786-mingw32
+  - i386-mingw32crt
+  - i486-mingw32crt
+  - i586-mingw32crt
+  - i686-mingw32crt
+  - i786-mingw32crt
+  - i386-windows-gnu
+  - i486-windows-gnu
+  - i586-windows-gnu
+  - i686-windows-gnu
+  - i786-windows-gnu
+variants:
+  - x86_64-mingw32
+variant_flags: -m32
+
+import:
+  - arch/i386
+  - kernel/windows
+  - env/mingw
+  - model/ilp32
+  - obj/coff

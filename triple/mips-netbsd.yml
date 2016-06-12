@@ -1,0 +1,9 @@
+triples:
+  - mips-netbsd
+
+import:
+  - arch/mips32r2eb
+  - kernel/netbsd
+  - env/netbsd
+  - model/ilp32
+  - obj/elf

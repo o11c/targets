@@ -1,0 +1,14 @@
+triples:
+  - sparc-elf
+variants:
+  - sparc64-elf
+  - sparc-linux-gnu
+  - sparc64-linux-gnu
+variant_flags: -m32 -ffreestanding -nostdlib -nostdinc
+
+import:
+  - arch/sparc
+  - kernel/none
+  - env/none
+  - model/ilp32
+  - obj/elf

@@ -1,0 +1,11 @@
+triples:
+  - arm-freebsd
+
+default_char_sign: unsigned
+
+import:
+  - arch/armel_sf
+  - kernel/freebsd
+  - env/freebsd
+  - model/ilp32
+  - obj/elf

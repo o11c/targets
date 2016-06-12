@@ -1,0 +1,13 @@
+triples:
+  - i386-solaris
+  - i486-solaris
+  - i586-solaris
+  - i686-solaris
+  - i786-solaris
+
+import:
+  - arch/i386
+  - kernel/solaris
+  - env/solaris
+  - model/ilp32
+  - obj/elf

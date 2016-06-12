@@ -1,0 +1,18 @@
+triples:
+  - x86_64-elf
+  - amd64-elf
+
+variants:
+  - i386-elf
+  - i386-gnu
+  - i386-linux-gnu
+  - x86_64-linux-gnu
+  - x86_64-linux-gnux32
+variant_flags: -m64 -ffreestanding -nostdlib -nostdinc
+
+import:
+  - arch/x86_64
+  - kernel/none
+  - env/none
+  - model/lp64
+  - obj/elf

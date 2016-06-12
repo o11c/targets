@@ -1,0 +1,5 @@
+arch: i386
+reg: 32
+endian: little
+cpp:
+  - __i386__

@@ -1,0 +1,6 @@
+arch: hppa
+endian: big
+reg: 64
+cpp:
+  - __hppa__
+  - _PA_RISC2_0

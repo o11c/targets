@@ -1,0 +1,4 @@
+kernel: hurd
+cpp:
+  - __GNU__
+  - __gnu_hurd__

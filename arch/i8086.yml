@@ -1,0 +1,4 @@
+arch: i8086
+reg: 16
+endian: little
+# TODO cpp:

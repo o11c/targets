@@ -1,0 +1,11 @@
+triples:
+  - arm-linux-gnueabi
+# TODO figure out variants
+
+default_char_sign: unsigned
+
+import:
+  - arch/armel_sf
+  - misc/linux-gnu
+  - model/ilp32
+  - obj/elf

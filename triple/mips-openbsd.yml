@@ -1,0 +1,9 @@
+triples:
+  - mips-openbsd
+
+import:
+  - arch/mips32r2eb
+  - kernel/openbsd
+  - env/openbsd
+  - model/ilp32
+  - obj/elf

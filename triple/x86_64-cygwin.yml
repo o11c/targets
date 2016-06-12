@@ -1,0 +1,13 @@
+triples:
+  - x86_64-cygwin
+  - amd64-cygwin
+variants:
+  - i386-cygwin
+# Variants don't seem to work properly without help.
+variant_flags: -m64
+import:
+  - arch/x86_64
+  - kernel/windows
+  - env/cygnus
+  - model/lp64
+  - obj/coff

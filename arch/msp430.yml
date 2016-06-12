@@ -1,0 +1,5 @@
+arch: msp430
+endian: little
+reg: 16
+cpp:
+  - __MSP430__

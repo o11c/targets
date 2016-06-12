@@ -1,0 +1,14 @@
+triples:
+  - aarch64_be-linux-gnu
+  - arm64_be-linux-gnu
+variants:
+  - aarch64-linux-gnu
+variant_flags: -mbig-endian
+
+default_char_sign: unsigned
+
+import:
+  - arch/aarch64_be
+  - misc/linux-gnu
+  - model/lp64
+  - obj/elf

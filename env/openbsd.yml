@@ -1,0 +1,5 @@
+libc: openbsd
+cpp:
+  - __unix__
+  - __OpenBSD__
+  - __STDC_HOSTED__ == 1

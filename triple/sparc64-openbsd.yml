@@ -1,0 +1,9 @@
+triples:
+  - sparc64-openbsd
+
+import:
+  - arch/sparc64
+  - kernel/openbsd
+  - env/openbsd
+  - model/lp64
+  - obj/elf

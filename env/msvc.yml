@@ -1,0 +1,6 @@
+libc: msvcrt
+cpp:
+  # Should figure out what macros are defined.
+  # https://stackoverflow.com/questions/3665537/how-to-find-out-cl-exes-built-in-macros
+  - _MSC_VER
+  - __STDC_HOSTED__ == 1

@@ -1,0 +1,5 @@
+# Loaded by default for all triples.
+short: 16
+long_long: 64
+# Basically everywhere except arm, s390
+default_char_sign: signed

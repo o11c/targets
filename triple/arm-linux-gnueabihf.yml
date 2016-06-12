@@ -1,0 +1,11 @@
+triples:
+  - arm-linux-gnueabihf
+# TODO figure out variants
+
+default_char_sign: unsigned
+
+import:
+  - arch/armel_hf
+  - misc/linux-gnu
+  - model/ilp32
+  - obj/elf

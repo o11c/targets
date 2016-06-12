@@ -1,0 +1,11 @@
+triples:
+  - powerpc-freebsd
+
+default_char_sign: unsigned
+
+import:
+  - arch/ppc32be
+  - kernel/freebsd
+  - env/freebsd
+  - model/ilp32
+  - obj/elf

@@ -1,0 +1,6 @@
+# winnt and win9x are the same
+# but 16-bit windows would be different maybe?
+kernel: windows
+cpp:
+  # TODO do we really want cygwin here? It *is* convenient in some ways ...
+  - _WIN32 || __CYGWIN__

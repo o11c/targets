@@ -1,0 +1,6 @@
+# 64-bit model commonly used on Windows
+int: 32
+ptr: 64
+size: 64
+reg: 64
+long: 32

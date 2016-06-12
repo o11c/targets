@@ -1,0 +1,6 @@
+arch: mips32r6el
+endian: big
+reg: 32
+cpp:
+  - _MIPS_ARCH_MIPS32R6
+  - _MIPSEB

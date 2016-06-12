@@ -1,0 +1,9 @@
+arch: sparc64
+endian: big
+reg: 64
+cpp:
+  - __arch64__
+  - __sparc__
+  - __sparc64__
+  - __sparc_v9__
+  - __sparcv9__

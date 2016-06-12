@@ -1,0 +1,13 @@
+triples:
+  - i386-openbsd
+  - i486-openbsd
+  - i586-openbsd
+  - i686-openbsd
+  - i786-openbsd
+
+import:
+  - arch/i386
+  - kernel/openbsd
+  - env/openbsd
+  - model/ilp32
+  - obj/elf

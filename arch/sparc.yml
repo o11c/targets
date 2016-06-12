@@ -1,0 +1,6 @@
+arch: sparc
+endian: big
+reg: 32
+cpp:
+  - __sparc__
+  - __sparcv8__

@@ -1,0 +1,10 @@
+triples:
+  - x86_64-darwin
+  - amd64-darwin
+
+import:
+  - arch/x86_64
+  - kernel/xnu
+  - env/darwin
+  - model/lp64
+  - obj/macho

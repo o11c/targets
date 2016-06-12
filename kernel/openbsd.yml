@@ -1,0 +1,3 @@
+kernel: openbsd
+cpp:
+  - __OpenBSD__

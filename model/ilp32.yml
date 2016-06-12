@@ -1,0 +1,8 @@
+# 32-bit model used ubiquitously
+int: 32
+ptr: 32
+size: 32
+long: 32
+
+cpp:
+  - __ILP32__

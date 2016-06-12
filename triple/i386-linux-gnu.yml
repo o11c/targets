@@ -1,0 +1,16 @@
+triples:
+  - i386-linux-gnu
+  - i486-linux-gnu
+  - i586-linux-gnu
+  - i686-linux-gnu
+  - i786-linux-gnu
+variants:
+  - x86_64-linux-gnu
+  - x86_64-linux-gnux32
+variant_flags: -m32
+
+import:
+  - arch/i386
+  - misc/linux-gnu
+  - model/ilp32
+  - obj/elf

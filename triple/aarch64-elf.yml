@@ -1,0 +1,15 @@
+triples:
+  - aarch64-elf
+  - arm64-elf
+variants:
+  - aarch64_be-elf
+  - aarch64-linux-gnu
+  - aarch64_be-linux-gnu
+variant_flags: -mlittle-endian -ffreestanding -nostdlib -nostdinc
+
+import:
+  - arch/aarch64_le
+  - kernel/none
+  - env/none
+  - model/lp64
+  - obj/elf

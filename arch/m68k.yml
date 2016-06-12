@@ -1,0 +1,6 @@
+arch: m68k
+endian: big
+reg: 32
+cpp:
+  - __m68k__
+  - __mc68000__

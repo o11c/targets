@@ -1,0 +1,12 @@
+triples:
+  - x86_64-kfreebsd-gnu
+  - amd64-kfreebsd-gnu
+variants:
+  - i386-kfreebsd-gnu
+variant_flags: -m64
+
+import:
+  - arch/x86_64
+  - misc/kfreebsd-gnu
+  - model/lp64
+  - obj/elf

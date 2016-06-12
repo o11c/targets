@@ -1,0 +1,8 @@
+triples:
+  - sh4-linux-gnu
+
+import:
+  - arch/sh4
+  - misc/linux-gnu
+  - model/ilp32
+  - obj/elf

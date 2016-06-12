@@ -1,0 +1,13 @@
+triples:
+  - x86_64-windows-msvc
+  - amd64-windows-msvc
+variants:
+  - i386-windows-msvc
+variant_flags: -m64
+
+import:
+  - arch/x86_64
+  - kernel/windows
+  - env/msvc
+  - model/llp64
+  - obj/coff

@@ -1,0 +1,8 @@
+# 16-bit model with 32-bit `int`, used on m68hc11
+int: 32
+ptr: 16
+size: 16
+long: 32
+
+cpp:
+  - __INT__ == 32

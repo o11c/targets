@@ -1,0 +1,9 @@
+triples:
+  - sparc-solaris
+
+import:
+  - arch/sparc
+  - kernel/solaris
+  - env/solaris
+  - model/ilp32
+  - obj/elf

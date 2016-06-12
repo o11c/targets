@@ -1,0 +1,11 @@
+triples:
+  - arm-netbsdelf
+
+default_char_sign: unsigned
+
+import:
+  - arch/armel_sf
+  - kernel/netbsd
+  - env/netbsd
+  - model/ilp32
+  - obj/elf

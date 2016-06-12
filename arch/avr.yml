@@ -1,0 +1,5 @@
+arch: avr
+endian: little
+reg: 16
+cpp:
+  - __AVR__

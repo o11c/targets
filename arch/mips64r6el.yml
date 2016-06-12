@@ -1,0 +1,6 @@
+arch: mips64r6el
+endian: little
+reg: 64
+cpp:
+  - _MIPS_ARCH_MIPS64R6
+  - _MIPSEL

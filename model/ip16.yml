@@ -1,0 +1,5 @@
+# 16-bit model used classically (with near pointers by default)
+int: 16
+ptr: 16
+size: 16
+long: 32

@@ -1,0 +1,3 @@
+kernel: netbsd
+cpp:
+  - __NetBSD__

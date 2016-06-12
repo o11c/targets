@@ -1,0 +1,5 @@
+# The ELF object file format is used nearly everywhere.
+# The notable exceptions are Windows and Darwin.
+obj: elf
+cpp:
+  - __ELF__

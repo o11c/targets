@@ -1,0 +1,17 @@
+triples:
+  - i386-cygwin
+  - i486-cygwin
+  - i586-cygwin
+  - i686-cygwin
+  - i786-cygwin
+variants:
+  - x86_64-cygwin
+# Variants don't seem to work properly without help.
+variant_flags: -m32
+
+import:
+  - arch/i386
+  - kernel/windows
+  - env/cygnus
+  - model/ilp32
+  - obj/coff

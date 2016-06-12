@@ -1,0 +1,10 @@
+triples:
+  - x86_64-netbsd
+  - amd64-netbsd
+
+import:
+  - arch/x86_64
+  - kernel/netbsd
+  - env/netbsd
+  - model/lp64
+  - obj/elf

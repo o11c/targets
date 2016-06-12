@@ -1,0 +1,13 @@
+arch: armel_hf
+endian: little
+reg: 32
+cpp:
+  # TODO some of this belongs in env/
+  - __arm__
+  - __APCS_32__
+  - __ARM_32BIT_STATE
+  - __ARM_ARCH_ISA_ARM
+  - __ARM_EABI__
+  - __ARM_FP == 12
+  - __ARM_PCS_VFP
+  - __ARMEL__

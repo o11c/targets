@@ -1,0 +1,8 @@
+arch: m68hc11
+endian: big
+reg: 16
+cpp:
+  - __mc68hc1x__
+  - MC6811
+  - mc6811
+  - mc68hc11

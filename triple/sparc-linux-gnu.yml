@@ -1,0 +1,11 @@
+triples:
+  - sparc-linux-gnu
+variants:
+  - sparc64-linux-gnu
+variant_flags: -m32
+
+import:
+  - arch/sparc
+  - misc/linux-gnu
+  - model/ilp32
+  - obj/elf

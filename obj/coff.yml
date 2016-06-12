@@ -1,0 +1,2 @@
+# The COFF (and PE) object file format is used primarily on Windows
+obj: coff

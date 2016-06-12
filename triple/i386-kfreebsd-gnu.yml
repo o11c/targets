@@ -1,0 +1,15 @@
+triples:
+  - i386-kfreebsd-gnu
+  - i486-kfreebsd-gnu
+  - i586-kfreebsd-gnu
+  - i686-kfreebsd-gnu
+  - i786-kfreebsd-gnu
+variants:
+  - x86_64-kfreebsd-gnu
+variant_flags: -m32
+
+import:
+  - arch/i386
+  - misc/kfreebsd-gnu
+  - model/ilp32
+  - obj/elf

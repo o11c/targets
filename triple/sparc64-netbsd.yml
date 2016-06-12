@@ -1,0 +1,9 @@
+triples:
+  - sparc64-netbsd
+
+import:
+  - arch/sparc64
+  - kernel/netbsd
+  - env/netbsd
+  - model/lp64
+  - obj/elf

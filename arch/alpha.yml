@@ -1,0 +1,5 @@
+arch: alpha
+endian: little
+reg: 64
+cpp:
+  - __alpha__

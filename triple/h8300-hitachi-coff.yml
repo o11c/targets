@@ -1,0 +1,12 @@
+triples:
+  - h8300-hitachi-coff
+  - h8300-hms
+
+default_char_sign: unsigned
+
+import:
+  - arch/h8300
+  - kernel/none
+  - env/none
+  - model/ip16
+  - obj/coff

@@ -1,0 +1,5 @@
+arch: x86_64
+endian: little
+reg: 64
+cpp:
+  - __x86_64__

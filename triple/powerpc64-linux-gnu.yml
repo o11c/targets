@@ -1,0 +1,15 @@
+triples:
+  - powerpc64-linux-gnu
+variants:
+  - powerpc-linux-gnu
+  - powerpcle-linux-gnu
+  - powerpc64le-linux-gnu
+variant_flags: -m64 -mbig-endian
+
+default_char_sign: unsigned
+
+import:
+  - arch/ppc64be
+  - misc/linux-gnu
+  - model/lp64
+  - obj/elf

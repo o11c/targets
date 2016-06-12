@@ -1,0 +1,3 @@
+libc: avr
+cpp:
+  - __WITH_AVRLIBC__

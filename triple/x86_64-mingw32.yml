@@ -1,0 +1,15 @@
+triples:
+  - x86_64-mingw32
+  - amd64-mingw32
+  - x86_64-windows-gnu
+  - amd64-windows-gnu
+variants:
+  - i386-mingw32
+variant_flags: -m64
+
+import:
+  - arch/x86_64
+  - kernel/windows
+  - env/mingw
+  - model/llp64
+  - obj/coff

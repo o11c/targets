@@ -1,0 +1,4 @@
+kernel: solaris
+cpp:
+  - __sun__
+  - __svr4__
