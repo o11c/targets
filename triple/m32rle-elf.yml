@@ -1,0 +1,13 @@
+triples:
+  - m32rle-elf
+variants:
+  - m32rle-elf
+  - m32rle-linux-gnu
+freestanding: true
+
+import:
+  - arch/m32rle
+  - kernel/none
+  - env/none
+  - model/ilp32
+  - obj/elf

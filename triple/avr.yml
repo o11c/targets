@@ -1,9 +1,0 @@
-triples:
-  - avr
-
-import:
-  - arch/avr
-  - kernel/none
-  - env/avr
-  - model/ip16
-  - obj/elf

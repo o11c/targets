@@ -1,0 +1,7 @@
+arch: tilepro
+endian: little
+reg: 32
+cpp:
+  - __tile__
+  - __tilepro__
+  - __LITTLE_ENDIAN__

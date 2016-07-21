@@ -1,0 +1,6 @@
+arch: rx_be
+endian: big
+reg: 32
+cpp:
+  - __RX__
+  - __RX_BIG_ENDIAN__

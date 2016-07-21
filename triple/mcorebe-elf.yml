@@ -1,0 +1,16 @@
+triples:
+  - mcorebe-elf
+variants:
+  - mcore-elf
+  - mcorebe-elf
+variant_flags: -mbig-endian
+freestanding: true
+
+default_char_sign: unsigned
+
+import:
+  - arch/mcorebe
+  - kernel/none
+  - env/none
+  - model/ilp32
+  - obj/elf

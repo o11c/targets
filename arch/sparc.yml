@@ -3,4 +3,4 @@ endian: big
 reg: 32
 cpp:
   - __sparc__
-  - __sparcv8__
+  - __sparcv7__ || __sparcv8__

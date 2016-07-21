@@ -1,0 +1,14 @@
+# Special embedded variant of PPC (e.g. e500).
+# Incompatible with altivec.
+arch: ppcspe
+endian: big
+reg: 32
+cpp:
+  - __powerpc__
+  - __PPC__
+  - _ARCH_PPC
+  - _BIG_ENDIAN
+  - _SOFT_DOUBLE
+  - __SPE__
+  - __NO_FPRS__
+  - __NO_LWSYNC__

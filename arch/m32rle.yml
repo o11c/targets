@@ -1,0 +1,8 @@
+arch: m32rle
+endian: little
+reg: 32
+cpp:
+  - __M32R__
+  - __m32r__
+  - __LITTLE_ENDIAN__
+# GCC lacks flags to control endianness.

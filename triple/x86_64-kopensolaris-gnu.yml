@@ -1,0 +1,13 @@
+triples:
+  - x86_64-kopensolaris-gnu
+  - amd64-kopensolaris-gnu
+variants:
+  - i386-kopensolaris-gnu
+  - x86_64-kopensolaris-gnu
+variant_flags: -m64
+
+import:
+  - arch/x86_64
+  - misc/kopensolaris-gnu
+  - model/lp64
+  - obj/elf

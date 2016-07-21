@@ -1,5 +1,10 @@
 triples:
   - powerpc-darwin
+  - ppc-darwin
+variants:
+  - powerpc-darwin
+  - powerpc64-darwin
+variant_flags: -m32
 
 import:
   - arch/ppc32be

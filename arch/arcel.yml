@@ -1,0 +1,5 @@
+arch: arcel
+endian: little
+reg: 32
+cpp:
+  - __arc__

@@ -1,0 +1,7 @@
+arch: microblazeel
+endian: little
+reg: 32
+cpp:
+  - __MICROBLAZEEL__
+  - __MICROBLAZE__
+  - __microblaze__

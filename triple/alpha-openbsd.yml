@@ -1,0 +1,9 @@
+triples:
+  - alpha-openbsd
+
+import:
+  - arch/alpha
+  - kernel/openbsd
+  - env/openbsd
+  - model/lp64
+  - obj/elf

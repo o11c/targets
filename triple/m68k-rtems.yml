@@ -1,0 +1,9 @@
+triples:
+  - m68k-rtems
+
+import:
+  - arch/m68k
+  - kernel/rtems
+  - env/rtems
+  - model/ilp32
+  - obj/elf

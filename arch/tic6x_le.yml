@@ -1,0 +1,7 @@
+arch: tic6x_le
+endian: little
+reg: 32
+cpp:
+  - _TMS320C6X
+  - __TMS320C6X__
+  - _LITTLE_ENDIAN

@@ -1,0 +1,13 @@
+triples:
+  - m68hc11-none
+  - m68hc11
+freestanding: true
+
+default_char_sign: unsigned
+
+import:
+  - arch/m68hc11
+  - kernel/none
+  - env/none
+  - model/sp16
+  - obj/elf

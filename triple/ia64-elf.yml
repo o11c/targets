@@ -1,0 +1,16 @@
+triples:
+  - ia64-elf
+variants:
+  - ia64-elf
+  - ia64-freebsd
+  - ia64-hpux
+  - ia64-linux-gnu
+  - ia64-vms
+freestanding: true
+
+import:
+  - arch/itanium
+  - kernel/none
+  - env/none
+  - model/lp64
+  - obj/elf

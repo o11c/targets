@@ -5,6 +5,7 @@ triples:
   - i686-linux-gnu
   - i786-linux-gnu
 variants:
+  - i386-linux-gnu
   - x86_64-linux-gnu
   - x86_64-linux-gnux32
 variant_flags: -m32

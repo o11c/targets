@@ -1,0 +1,9 @@
+triples:
+  - bfin-linux-uclibc
+
+import:
+  - arch/blackfin
+  - kernel/linux
+  - env/uclibc
+  - model/ilp32
+  - obj/elf

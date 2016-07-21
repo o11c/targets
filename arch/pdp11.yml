@@ -1,0 +1,9 @@
+arch: pdp11
+endian: little
+# The hardware does not do the 32-bit loads/stores that give rise to the
+# infamous PDP-endianness, so it will need to be a property of the triple.
+# Currently we don't have a field for that though.
+#word_endian: big
+reg: 16
+cpp:
+  - __pdp11__

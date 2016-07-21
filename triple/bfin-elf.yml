@@ -1,0 +1,16 @@
+triples:
+  - bfin-elf
+variants:
+  - bfin-elf
+  - bfin-linux-uclibc
+  - bfin-openbsd
+  - bfin-rtems
+  - bfin-uclinux
+freestanding: true
+
+import:
+  - arch/blackfin
+  - kernel/none
+  - env/none
+  - model/ilp32
+  - obj/elf

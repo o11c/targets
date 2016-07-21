@@ -1,0 +1,9 @@
+cpp:
+  - __mips_eabi
+  - _MIPS_SZINT == 32
+  - _MIPS_SZLONG == 64
+  - _MIPS_SZPTR == 64
+  - _MIPS_ISA == _MIPS_ISA_MIPS64
+
+import:
+  - model/lp64

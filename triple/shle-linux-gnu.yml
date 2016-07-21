@@ -1,0 +1,13 @@
+triples:
+  - shle-linux-gnu
+  - sh4-linux-gnu
+variants:
+  - sheb-linux-gnu
+  - shle-linux-gnu
+variant_flags: -ml
+
+import:
+  - arch/shle
+  - misc/linux-gnu
+  - model/ilp32
+  - obj/elf

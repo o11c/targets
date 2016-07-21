@@ -5,6 +5,7 @@ triples:
   - i686-kfreebsd-gnu
   - i786-kfreebsd-gnu
 variants:
+  - i386-kfreebsd-gnu
   - x86_64-kfreebsd-gnu
 variant_flags: -m32
 

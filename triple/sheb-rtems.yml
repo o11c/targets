@@ -1,0 +1,9 @@
+triples:
+  - sheb-rtems
+
+import:
+  - arch/sheb
+  - kernel/rtems
+  - env/rtems
+  - model/ilp32
+  - obj/elf

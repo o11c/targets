@@ -1,10 +1,13 @@
 triples:
   - powerpc64-linux-gnu
+  - ppc64-linux-gnu
 variants:
   - powerpc-linux-gnu
+  - powerpc-linux-gnu_spe
   - powerpcle-linux-gnu
+  - powerpc64-linux-gnu
   - powerpc64le-linux-gnu
-variant_flags: -m64 -mbig-endian
+variant_flags: -m64 -mbig-endian -mno-spe
 
 default_char_sign: unsigned
 

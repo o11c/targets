@@ -1,0 +1,4 @@
+kernel: opensolaris
+cpp:
+  # TODO what about with native userland instead of kOpenSolaris?
+  - __OpenSolaris_kernel__

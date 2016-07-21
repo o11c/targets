@@ -1,0 +1,10 @@
+triples:
+  - sparc-vxworks
+
+import:
+  - arch/sparc
+  - kernel/vxworks
+  - env/vxworks
+  - model/ilp32
+  - obj/elf
+

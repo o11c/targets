@@ -1,0 +1,8 @@
+arch: blackfin
+endian: little
+reg: 32
+cpp:
+  - __ADSPBLACKFIN__
+  - __ADSPLPBLACKFIN__
+  - __BFIN__
+  - __bfin__

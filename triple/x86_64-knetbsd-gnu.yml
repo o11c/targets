@@ -1,0 +1,13 @@
+triples:
+  - x86_64-knetbsd-gnu
+  - amd64-knetbsd-gnu
+variants:
+  - i386-knetbsd-gnu
+  - x86_64-knetbsd-gnu
+variant_flags: -m64
+
+import:
+  - arch/x86_64
+  - misc/knetbsd-gnu
+  - model/lp64
+  - obj/elf

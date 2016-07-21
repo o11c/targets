@@ -1,0 +1,9 @@
+triples:
+  - alpha-freebsd
+
+import:
+  - arch/alpha
+  - kernel/freebsd
+  - env/freebsd
+  - model/lp64
+  - obj/elf

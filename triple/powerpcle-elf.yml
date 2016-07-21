@@ -1,0 +1,33 @@
+triples:
+  - powerpcle-elf
+  - ppcle-elf
+variants:
+  - powerpc-elf
+  - powerpcle-elf
+  - powerpc64-elf
+  - powerpc64le-elf
+  - powerpc-eabi
+  - powerpc-eabispe
+  - powerpcle-eabi
+  - powerpc-aix
+  - powerpc-freebsd
+  - powerpc-lynxos
+  - powerpc-netbsd
+  - powerpc-rtems
+  - powerpc-vxworks
+  - powerpc-linux-gnu
+  - powerpc-linux-gnu_spe
+  - powerpcle-linux-gnu
+  - powerpc64-linux-gnu
+  - powerpc64le-linux-gnu
+variant_flags: -m32 -mlittle-endian -mno-eabi -mno-spe
+freestanding: true
+
+default_char_sign: unsigned
+
+import:
+  - arch/ppc32le
+  - kernel/none
+  - env/none
+  - model/ilp32
+  - obj/elf

@@ -1,0 +1,7 @@
+arch: cris
+endian: little
+reg: 32
+cpp:
+  - __cris__
+  - __CRIS__
+  - __GNU_CRIS__

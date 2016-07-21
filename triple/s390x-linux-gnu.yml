@@ -1,5 +1,9 @@
 triples:
   - s390x-linux-gnu
+variants:
+  - s390-linux-gnu
+  - s390x-linux-gnu
+variant_flags: -m64
 
 default_char_sign: unsigned
 

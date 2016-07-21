@@ -1,0 +1,14 @@
+triples:
+  - lm32-elf
+variants:
+  - lm32-elf
+  - lm32-rtems
+  - lm32-uclinux
+freestanding: true
+
+import:
+  - arch/lm32
+  - kernel/none
+  - env/none
+  - model/ilp32
+  - obj/elf

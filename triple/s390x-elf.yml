@@ -1,0 +1,19 @@
+triples:
+  - s390x-elf
+variants:
+  - s390-elf
+  - s390x-elf
+  - s390-linux-gnu
+  - s390x-linux-gnu
+  - s390x-tpf
+variant_flags: -m64
+freestanding: true
+
+default_char_sign: unsigned
+
+import:
+  - arch/s390x
+  - kernel/none
+  - env/none
+  - model/lp64
+  - obj/elf

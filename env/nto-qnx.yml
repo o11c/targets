@@ -1,0 +1,5 @@
+libc: nto-qnx
+cpp:
+  - __unix__
+  - __QNX__
+  - __QNXNTO__

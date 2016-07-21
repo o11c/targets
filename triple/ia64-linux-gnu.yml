@@ -1,0 +1,8 @@
+triples:
+  - ia64-linux-gnu
+
+import:
+  - arch/itanium
+  - misc/linux-gnu
+  - model/lp64
+  - obj/elf

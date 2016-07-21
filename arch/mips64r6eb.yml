@@ -1,4 +1,4 @@
-arch: mips64r6el
+arch: mips64r6eb
 endian: big
 reg: 64
 cpp:

@@ -1,0 +1,12 @@
+triples:
+  - tilegx-linux-gnu
+variants:
+  - tilegx-linux-gnu
+  - tilegxbe-linux-gnu
+variant_flags: -mlittle-endian
+
+import:
+  - arch/tilegxle
+  - misc/linux-gnu
+  - model/lp64
+  - obj/elf

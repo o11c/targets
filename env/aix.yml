@@ -1,0 +1,3 @@
+libc: aix
+cpp:
+  - _AIX

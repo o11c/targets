@@ -1,0 +1,3 @@
+libc: rtems
+cpp:
+  - __rtems__

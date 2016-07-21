@@ -1,0 +1,11 @@
+triples:
+  - alpha-vms
+  - alpha64-vms
+
+import:
+  - arch/alpha
+  - kernel/vms
+  - env/vms
+  # !
+  - model/ilp32
+  - obj/elf

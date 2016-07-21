@@ -3,6 +3,7 @@ triples:
   - amd64-windows-msvc
 variants:
   - i386-windows-msvc
+  - x86_64-windows-msvc
 variant_flags: -m64
 
 import:

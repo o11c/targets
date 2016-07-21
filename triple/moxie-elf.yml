@@ -1,0 +1,14 @@
+triples:
+  - moxie-elf
+variants:
+  - moxie-elf
+  - moxie-rtems
+  - moxie-uclinux
+freestanding: true
+
+import:
+  - arch/moxie_be
+  - kernel/none
+  - env/none
+  - model/ilp32
+  - obj/elf

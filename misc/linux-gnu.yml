@@ -2,5 +2,9 @@ import:
   - kernel/linux
   - env/gnu
 
+# The reason this is in misc/, but other kernel&env combinations are not,
+# is because of this extra macro that happens only when both are present.
+# (Proof: *-linux-uclibc does not have it)
+# TODO: should this be moved, and guarded by `!__linux__ || __gnu_linux__`?
 cpp:
   - __gnu_linux__

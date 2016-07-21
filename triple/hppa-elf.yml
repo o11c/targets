@@ -1,0 +1,15 @@
+triples:
+  - hppa-elf
+variants:
+  - hppa-elf
+  - hppa-linux-gnu
+  - hppa64-elf
+  - hppa64-linux-gnu
+variant_flags: -march=1.1
+
+import:
+  - arch/hppa
+  - kernel/none
+  - env/none
+  - model/ilp32
+  - obj/elf

@@ -1,0 +1,10 @@
+triples:
+  - cr16-elf
+freestanding: true
+
+import:
+  - arch/cr16
+  - kernel/none
+  - env/none
+  - model/lp32
+  - obj/elf

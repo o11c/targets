@@ -1,0 +1,8 @@
+triples:
+  - cris-linux-gnu
+
+import:
+  - arch/cris
+  - misc/linux-gnu
+  - model/ilp32
+  - obj/elf

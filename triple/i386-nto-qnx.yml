@@ -1,0 +1,16 @@
+triples:
+  - i386-nto-qnx
+  - i486-nto-qnx
+  - i586-nto-qnx
+  - i686-nto-qnx
+  - i786-nto-qnx
+
+import:
+  - arch/i386
+  - kernel/nto-qnx
+  - env/nto-qnx
+  - model/ilp32
+  - obj/elf
+
+cpp:
+  - __X86__

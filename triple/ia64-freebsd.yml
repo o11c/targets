@@ -1,0 +1,9 @@
+triples:
+  - ia64-freebsd
+
+import:
+  - arch/itanium
+  - kernel/freebsd
+  - env/freebsd
+  - model/lp64
+  - obj/elf

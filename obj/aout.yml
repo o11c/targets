@@ -1,0 +1,3 @@
+# The so-called "a.out" was used by old Unixen.
+# It was replaced by COFF and ELF.
+obj: aout

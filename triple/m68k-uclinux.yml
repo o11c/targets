@@ -1,0 +1,9 @@
+triples:
+  - m68k-uclinux
+
+import:
+  - arch/m68k
+  - kernel/uclinux
+  - env/uclibc
+  - model/ilp32
+  - obj/elf

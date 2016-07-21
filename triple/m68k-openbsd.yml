@@ -1,0 +1,9 @@
+triples:
+  - m68k-openbsd
+
+import:
+  - arch/m68k
+  - kernel/openbsd
+  - env/openbsd
+  - model/ilp32
+  - obj/elf

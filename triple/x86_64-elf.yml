@@ -1,14 +1,33 @@
 triples:
   - x86_64-elf
   - amd64-elf
-
 variants:
   - i386-elf
+  - x86_64-elf
+  - i386-freebsd
   - i386-gnu
+  - i386-interix
+  - i386-kfreebsd-gnu
+  - i386-knetbsd-gnu
+  - i386-kopensolaris-gnu
   - i386-linux-gnu
+  - i386-lynxos
+  - i386-netbsd
+  - i386-nto-qnx
+  - i386-openbsd
+  - i386-rtems
+  - i386-solaris
+  - i386-vxworks
+  - x86_64-freebsd
+  - x86_64-kfreebsd-gnu
+  - x86_64-knetbsd-gnu
+  - x86_64-kopensolaris-gnu
   - x86_64-linux-gnu
   - x86_64-linux-gnux32
-variant_flags: -m64 -ffreestanding -nostdlib -nostdinc
+  - x86_64-netbsd
+  - x86_64-rtems
+variant_flags: -m64
+freestanding: true
 
 import:
   - arch/x86_64

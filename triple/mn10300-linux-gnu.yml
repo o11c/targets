@@ -1,0 +1,13 @@
+triples:
+  - mn10300-linux-gnu
+  - am33-linux-gnu
+  - am33_2.0-linux-gnu
+  - am34-linux-gnu
+
+default_char_sign: unsigned
+
+import:
+  - arch/mn10300
+  - misc/linux-gnu
+  - model/ilp32
+  - obj/elf

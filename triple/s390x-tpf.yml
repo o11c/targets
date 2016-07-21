@@ -1,0 +1,11 @@
+triples:
+  - s390x-tpf
+
+default_char_sign: unsigned
+
+import:
+  - arch/s390x
+  - kernel/tpf
+  - env/tpf
+  - model/lp64
+  - obj/elf

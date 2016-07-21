@@ -1,0 +1,5 @@
+arch: m32c
+endian: little
+reg: 16
+cpp:
+  - __m32c__

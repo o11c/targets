@@ -3,4 +3,3 @@ cpp:
   - __unix__
   - __sun__
   - __svr4__
-  - __STDC_HOSTED__ == 1

@@ -1,0 +1,13 @@
+triples:
+  - m32c-elf
+variants:
+  - m32c-elf
+  - m32c-rtems
+freestanding: true
+
+import:
+  - arch/m32c
+  - kernel/none
+  - env/none
+  - model/ip16
+  - obj/elf

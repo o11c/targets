@@ -4,6 +4,10 @@ triples:
   - i586-darwin
   - i686-darwin
   - i786-darwin
+variants:
+  - i386-darwin
+  - x86_64-darwin
+variant_flags: -m32
 
 import:
   - arch/i386

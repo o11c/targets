@@ -2,6 +2,7 @@ triples:
   - x86_64-cygwin
   - amd64-cygwin
 variants:
+  - x86_64-cygwin
   - i386-cygwin
 # Variants don't seem to work properly without help.
 variant_flags: -m64

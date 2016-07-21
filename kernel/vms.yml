@@ -1,0 +1,4 @@
+kernel: vms
+cpp:
+  - __VMS__
+  - __vms__

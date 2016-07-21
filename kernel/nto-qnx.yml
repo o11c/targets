@@ -1,0 +1,4 @@
+kernel: nto-qnx
+cpp:
+  - __QNX__
+  - __QNXNTO__

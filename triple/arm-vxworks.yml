@@ -1,0 +1,11 @@
+triples:
+  - arm-vxworks
+
+default_char_sign: unsigned
+
+import:
+  - arch/armel_sf
+  - kernel/vxworks
+  - env/vxworks
+  - model/ilp32
+  - obj/elf

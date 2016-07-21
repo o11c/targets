@@ -1,0 +1,9 @@
+cpp:
+  - __mips_eabi
+  - _MIPS_SZINT == 32
+  - _MIPS_SZLONG == 32
+  - _MIPS_SZPTR == 32
+  - _MIPS_ISA == _MIPS_ISA_MIPS32
+
+import:
+  - model/ilp32

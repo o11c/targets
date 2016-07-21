@@ -1,0 +1,9 @@
+triples:
+  - lm32-rtems
+
+import:
+  - arch/lm32
+  - kernel/rtems
+  - env/rtems
+  - model/ilp32
+  - obj/elf

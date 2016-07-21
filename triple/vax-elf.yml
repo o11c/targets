@@ -1,0 +1,14 @@
+triples:
+  - vax-elf
+variants:
+  - vax-elf
+  - vax-linux-gnu
+  - vax-netbsdelf
+  - vax-openbsd
+freestanding: true
+
+import:
+  - arch/vax
+  - misc/linux-gnu
+  - model/ilp32
+  - obj/elf

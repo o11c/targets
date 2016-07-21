@@ -1,0 +1,19 @@
+triples:
+  - m68k-elf
+  #- m68xxx-elf
+  - fido-elf
+variants:
+  - m68k-elf
+  - m68k-linux-gnu
+  - m68k-netbsdelf
+  - m68k-openbsd
+  - m68k-rtems
+  - m68k-uclinux
+freestanding: true
+
+import:
+  - arch/m68k
+  - kernel/none
+  - env/none
+  - model/ilp32
+  - obj/elf

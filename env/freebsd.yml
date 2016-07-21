@@ -4,4 +4,3 @@ cpp:
   - __FreeBSD__
   - __FreeBSD_cc_version
   - __KPRINTF_ATTRIBUTE__
-  - __STDC_HOSTED__ == 1

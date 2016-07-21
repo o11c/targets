@@ -1,0 +1,16 @@
+triples:
+  - i386-kopensolaris-gnu
+  - i486-kopensolaris-gnu
+  - i586-kopensolaris-gnu
+  - i686-kopensolaris-gnu
+  - i786-kopensolaris-gnu
+variants:
+  - i386-kopensolaris-gnu
+  - x86_64-kopensolaris-gnu
+variant_flags: -m32
+
+import:
+  - arch/i386
+  - misc/kopensolaris-gnu
+  - model/ilp32
+  - obj/elf

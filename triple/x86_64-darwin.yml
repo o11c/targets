@@ -1,6 +1,10 @@
 triples:
   - x86_64-darwin
   - amd64-darwin
+variants:
+  - i386-darwin
+  - x86_64-darwin
+variant_flags: -m64
 
 import:
   - arch/x86_64

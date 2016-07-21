@@ -1,0 +1,7 @@
+arch: shle
+endian: little
+reg: 32
+cpp:
+  - __sh__
+  #- __SH4__
+  - __LITTLE_ENDIAN__

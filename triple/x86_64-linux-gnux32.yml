@@ -4,6 +4,7 @@ triples:
 variants:
   - i386-linux-gnu
   - x86_64-linux-gnu
+  - x86_64-linux-gnux32
 variant_flags: -mx32
 
 import:

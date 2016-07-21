@@ -1,0 +1,3 @@
+import:
+  - kernel/opensolaris
+  - env/gnu

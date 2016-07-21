@@ -1,0 +1,9 @@
+triples:
+  - vax-openbsd
+
+import:
+  - arch/vax
+  - kernel/openbsd
+  - env/openbsd
+  - model/ilp32
+  - obj/elf

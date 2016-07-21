@@ -1,0 +1,16 @@
+triples:
+  - tilegx-elf
+variants:
+  - tilegx-elf
+  - tilegxbe-elf
+  - tilegx-linux-gnu
+  - tilegxbe-linux-gnu
+variant_flags: -mlittle-endian
+freestanding: true
+
+import:
+  - arch/tilegxle
+  - kernel/none
+  - env/none
+  - model/lp64
+  - obj/elf

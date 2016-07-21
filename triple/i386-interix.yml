@@ -1,0 +1,17 @@
+triples:
+  - i386-interix
+  - i486-interix
+  - i586-interix
+  - i686-interix
+  - i786-interix
+
+import:
+  - arch/i386
+  - kernel/windows
+  - env/interix
+  - model/ilp32
+  - obj/elf
+
+cpp:
+  - _X86_
+  - _M_IX86

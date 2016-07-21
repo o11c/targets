@@ -1,0 +1,13 @@
+triples:
+  - i386-vxworks
+  - i486-vxworks
+  - i586-vxworks
+  - i686-vxworks
+  - i786-vxworks
+
+import:
+  - arch/i386
+  - kernel/vxworks
+  - env/vxworks
+  - model/ilp32
+  - obj/elf

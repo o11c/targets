@@ -1,0 +1,5 @@
+arch: xstormy16
+endian: little
+reg: 16
+cpp:
+  - __xstormy16__

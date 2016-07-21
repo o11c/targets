@@ -1,0 +1,19 @@
+triples:
+  - sheb-elf
+variants:
+  - sheb-elf
+  - shle-elf
+  - sheb-linux-gnu
+  - shle-linux-gnu
+  - sheb-netbsdelf
+  - sheb-rtems
+  - sheb-vxworks
+variant_flags: -mb
+freestanding: true
+
+import:
+  - arch/sheb
+  - kernel/none
+  - env/none
+  - model/ilp32
+  - obj/elf

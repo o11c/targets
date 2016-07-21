@@ -1,0 +1,6 @@
+arch: arceb
+endian: little
+reg: 32
+cpp:
+  - __arc__
+  - __big_endian__

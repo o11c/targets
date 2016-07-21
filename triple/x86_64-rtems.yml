@@ -1,0 +1,14 @@
+triples:
+  - x86_64-rtems
+  - amd64-rtems
+variants:
+  - i386-rtems
+  - x86_64-rtems
+variant_flags: -m64
+
+import:
+  - arch/x86_64
+  - kernel/rtems
+  - env/rtems
+  - model/lp64
+  - obj/elf

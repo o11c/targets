@@ -1,5 +1,6 @@
 triples:
   - powerpc-freebsd
+  - ppc-freebsd
 
 default_char_sign: unsigned
 

@@ -1,0 +1,7 @@
+arch: tilegxbe
+endian: big
+reg: 64
+cpp:
+  - __tile__
+  - __tilegx__
+  - __BIG_ENDIAN__

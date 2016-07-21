@@ -1,5 +1,6 @@
 triples:
   - powerpc-netbsd
+  - ppc-netbsd
 
 default_char_sign: unsigned
 

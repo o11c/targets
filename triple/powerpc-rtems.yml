@@ -1,0 +1,12 @@
+triples:
+  - powerpc-rtems
+  - ppc-rtems
+
+default_char_sign: unsigned
+
+import:
+  - arch/ppc32be
+  - kernel/rtems
+  - env/rtems
+  - model/ilp32
+  - obj/elf

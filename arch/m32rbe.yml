@@ -1,0 +1,8 @@
+arch: m32rbe
+endian: big
+reg: 32
+cpp:
+  - __M32R__
+  - __m32r__
+  - __BIG_ENDIAN__
+# GCC lacks flags to control endianness.

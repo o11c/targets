@@ -1,0 +1,15 @@
+triples:
+  - h8300-elf
+variants:
+  - h8300-elf
+  - h8300-rtems
+freestanding: true
+
+default_char_sign: unsigned
+
+import:
+  - arch/h8300
+  - kernel/none
+  - env/none
+  - model/ip16
+  - obj/elf

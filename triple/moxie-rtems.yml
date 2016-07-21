@@ -1,0 +1,9 @@
+triples:
+  - moxie-rtems
+
+import:
+  - arch/moxie_be
+  - kernel/rtems
+  - env/rtems
+  - model/ilp32
+  - obj/elf

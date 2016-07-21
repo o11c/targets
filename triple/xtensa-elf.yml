@@ -1,0 +1,15 @@
+triples:
+  - xtensa-elf
+variants:
+  - xtensa-elf
+  - xtensa-linux-gnu
+freestanding: true
+
+default_char_sign: unsigned
+
+import:
+  - arch/xtensa_eb
+  - kernel/none
+  - env/none
+  - model/ilp32
+  - obj/elf

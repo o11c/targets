@@ -1,0 +1,9 @@
+triples:
+  - mmix-mmixware
+
+import:
+  - arch/mmix
+  - kernel/mmixware
+  - env/mmixware
+  - model/lp64
+  - obj/mmo

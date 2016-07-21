@@ -80,6 +80,11 @@ class Merger:
         assert isinstance(val, str)
         return val
 
+    def _bool_check(self, key, val, old_val):
+        if val is None:
+            return False
+        return {'true': True, 'false': False}[val]
+
     def check_triples(self, key, val, old_val):
         assert old_val is None
         assert isinstance(val, list)
@@ -95,18 +100,23 @@ class Merger:
     # then `variant_flags` must also be defined and not empty
     def check_variants(self, key, val, old_val):
         if val is None:
-            return []
+            return [self._name]
         assert old_val is None
         assert isinstance(val, list)
         val_set = set(val)
         assert len(val_set) == len(val)
-        assert self._name not in val_set, self._name
+        assert self._name in val_set, self._name
         for other in val:
             assert os.path.exists('triple/%s.yml' % other), other
         return val
 
     check_variant_flags = _optional_unique_check
-    check_arch = _simple_override_check
+    check_freestanding = _bool_check
+
+    def check_arch(self, key, val, old_val):
+        assert old_val is None, '%r not unique for %s' % (key, self._name)
+        assert val is not None, '%r not defined for %s' % (key, self._name)
+        assert 'arch/%s' % val.replace('.', '_') == self._blacklist[-1], self._blacklist[-1]
     check_kernel = _simple_override_check
 
     def check_endian(self, key, val, old_val):
@@ -114,6 +124,12 @@ class Merger:
         assert val in {'little', 'big'} # PDP and Honeywell not supported.
         return val
 
+    cpp_regex_id = '(?:[A-Za-z_][A-Za-z_0-9]*)'
+    cpp_regex_int = '(?:0[Bb][01]+|0[0-7]*|[1-9][0-9]*|0[Xx][0-9A-Fa-f]+)'
+    cpp_regex_atom = '(?:%s|%s)' % (cpp_regex_id, cpp_regex_int)
+    cpp_regex_term = '(?:[?]?(?:%s|%s == %s))' % (cpp_regex_id, cpp_regex_id, cpp_regex_atom)
+    cpp_regex_alts = '(?:%s(?: \|\| %s)*)' % (cpp_regex_term, cpp_regex_term)
+    cpp_regex = re.compile(cpp_regex_alts)
     def check_cpp(self, key, val, old_val):
         # TODO: normalize all values, particularly:
         # * remove duplicates
@@ -124,18 +140,7 @@ class Merger:
         assert isinstance(val, list), type(val)
         val_set = set(val)
         for v in val:
-            # TODO: The only || right now is for cygwin ...
-            assert re.fullmatch('![A-Za-z_][A-Za-z_0-9]*|[A-Za-z_][A-Za-z_0-9]*( (==|\|\|) [A-Za-z_0-9]+)?', v), v
-        if old_val is not None:
-            old_val.extend(val)
-        else:
-            old_val = val
-        return old_val
-
-    def check_cpp_require(self, key, val, old_val):
-        if val is None:
-            return []
-        assert isinstance(val, list), type(val)
+            assert self.cpp_regex.fullmatch(v), v
         if old_val is not None:
             old_val.extend(val)
         else:
@@ -150,10 +155,9 @@ class Merger:
     check_long_long = _simple_override_check
     check_size = _simple_override_check
     check_ptr = _simple_override_check
+    # sizeof (int __attribute__ ((mode(word)))); * CHAR_BIT
     check_reg = _simple_override_check
     check_obj = _simple_override_check
-
-    # TODO figure out how to handle bare stuff like i386-elf
 
     def verify(self):
         # TODO if anything is missing, be incomplete?
@@ -166,14 +170,14 @@ class Merger:
                 assert isinstance(fun, types.MethodType)
                 val = None
                 self._merged_dict[key] = fun(key, val, None)
-        assert bool(self._merged_dict['variants']) == bool(self._merged_dict['variant_flags']), self._name
+        assert (len(self._merged_dict['variants']) > 1) <= (self._merged_dict['freestanding'] or bool(self._merged_dict['variant_flags'])), self._name
 
     def _load(self, name):
         # TODO cache imported files that are shared between multiple triples.
         # (should they be Merger objects too? with an 'incomplete' bool?)
         if name in self._done:
             return
-        assert '.' not in name
+        assert '.' not in name, name
         assert name not in self._blacklist
         self._blacklist.append(name)
 

@@ -1,0 +1,4 @@
+kernel: mmixware
+cpp:
+  - __mmix__
+  - __MMIX__

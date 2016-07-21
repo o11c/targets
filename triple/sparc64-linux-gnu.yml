@@ -2,10 +2,11 @@ triples:
   - sparc64-linux-gnu
 variants:
   - sparc-linux-gnu
+  - sparc64-linux-gnu
 variant_flags: -m64
 
 import:
-  - arch/sparc64
+  - arch/sparc64_be
   - misc/linux-gnu
   - model/lp64
   - obj/elf

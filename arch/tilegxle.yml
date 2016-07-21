@@ -1,0 +1,7 @@
+arch: tilegxle
+endian: little
+reg: 64
+cpp:
+  - __tile__
+  - __tilegx__
+  - __LITTLE_ENDIAN__

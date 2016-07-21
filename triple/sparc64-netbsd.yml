@@ -2,7 +2,7 @@ triples:
   - sparc64-netbsd
 
 import:
-  - arch/sparc64
+  - arch/sparc64_be
   - kernel/netbsd
   - env/netbsd
   - model/lp64

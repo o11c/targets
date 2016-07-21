@@ -1,0 +1,6 @@
+arch: v850
+endian: little
+reg: 32
+cpp:
+  - __v850
+  - __v851__

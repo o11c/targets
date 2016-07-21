@@ -3,9 +3,12 @@ triples:
   - arm64_be-elf
 variants:
   - aarch64-elf
+  - aarch64_be-elf
   - aarch64-linux-gnu
   - aarch64_be-linux-gnu
-variant_flags: -mbig-endian -ffreestanding -nostdlib -nostdinc
+  - aarch64-rtems
+variant_flags: -mbig-endian
+freestanding: true
 
 import:
   - arch/aarch64_be

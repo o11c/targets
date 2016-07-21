@@ -1,0 +1,5 @@
+arch: iq2000
+endian: big
+reg: 32
+cpp:
+  - __iq2000__

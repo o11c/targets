@@ -1,0 +1,9 @@
+triples:
+  - bfin-openbsd
+
+import:
+  - arch/blackfin
+  - kernel/openbsd
+  - env/openbsd
+  - model/ilp32
+  - obj/elf

@@ -1,0 +1,6 @@
+arch: nds32be
+endian: big
+reg: 32
+cpp:
+  - __nds32__
+  - __big_endian__

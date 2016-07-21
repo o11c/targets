@@ -1,0 +1,17 @@
+triples:
+  - alpha-elf
+variants:
+  - alpha-elf
+  - alpha-freebsd
+  - alpha-linux-gnu
+  - alpha-netbsd
+  - alpha-openbsd
+  - alpha-vms
+freestanding: true
+
+import:
+  - arch/alpha
+  - kernel/none
+  - env/none
+  - model/lp64
+  - obj/elf

@@ -1,0 +1,8 @@
+triples:
+  - nios2-linux-gnu
+
+import:
+  - arch/nios2el
+  - misc/linux-gnu
+  - model/ilp32
+  - obj/elf

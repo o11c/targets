@@ -1,0 +1,17 @@
+triples:
+  - nios2-elf
+variants:
+  - nios2-elf
+  - nios2eb-elf
+  - nios2-linux-gnu
+  #- nios2eb-linux-gnu
+  - nios2-rtems
+variant_flags: -mel
+freestanding: true
+
+import:
+  - arch/nios2el
+  - kernel/none
+  - env/none
+  - model/ilp32
+  - obj/elf

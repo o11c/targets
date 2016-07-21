@@ -3,6 +3,7 @@ triples:
   - arm64_be-linux-gnu
 variants:
   - aarch64-linux-gnu
+  - aarch64_be-linux-gnu
 variant_flags: -mbig-endian
 
 default_char_sign: unsigned

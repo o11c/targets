@@ -1,0 +1,11 @@
+triples:
+  - h8300-rtems
+
+default_char_sign: unsigned
+
+import:
+  - arch/h8300
+  - kernel/rtems
+  - env/rtems
+  - model/ip16
+  - obj/elf

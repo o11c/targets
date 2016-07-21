@@ -1,0 +1,9 @@
+triples:
+  - sheb-netbsdelf
+
+import:
+  - arch/sheb
+  - kernel/netbsd
+  - env/netbsd
+  - model/ilp32
+  - obj/elf

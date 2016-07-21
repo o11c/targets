@@ -1,4 +1,3 @@
 libc: mingw-msvcrt
 cpp:
   - __MINGW32__
-  - __STDC_HOSTED__ == 1

@@ -1,0 +1,7 @@
+arch: spu
+endian: big
+reg: 32
+cpp:
+  - __SPU__
+  # alternatively, __EA64__
+  - __EA32__

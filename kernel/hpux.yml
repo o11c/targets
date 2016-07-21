@@ -1,0 +1,4 @@
+kernel: hpux
+cpp:
+  - __hpux__
+  - _HPUX_SOURCE

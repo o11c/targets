@@ -1,0 +1,16 @@
+triples:
+  - i386-lynxos
+  - i486-lynxos
+  - i586-lynxos
+  - i686-lynxos
+  - i786-lynxos
+
+import:
+  - arch/i386
+  - kernel/lynxos
+  - env/lynxos
+  - model/ilp32
+  - obj/elf
+
+cpp:
+  - __x86__

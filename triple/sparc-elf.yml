@@ -1,10 +1,21 @@
 triples:
   - sparc-elf
 variants:
+  - sparc-elf
   - sparc64-elf
   - sparc-linux-gnu
+  - sparc-netbsdelf
+  - sparc-rtems
+  - sparc-solaris
+  - sparc-vxworks
+  - sparc64-freebsd
   - sparc64-linux-gnu
-variant_flags: -m32 -ffreestanding -nostdlib -nostdinc
+  - sparc64-netbsd
+  - sparc64-openbsd
+  - sparc64-rtems
+  - sparc64-solaris
+variant_flags: -m32
+freestanding: true
 
 import:
   - arch/sparc

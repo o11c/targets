@@ -1,3 +1,4 @@
+# There *is* software the acts differently for -w64- vendor
 triples:
   - i386-mingw32
   - i486-mingw32
@@ -15,8 +16,9 @@ triples:
   - i686-windows-gnu
   - i786-windows-gnu
 variants:
+  - i386-mingw32
   - x86_64-mingw32
-variant_flags: -m32
+variant_flags: -m32 # -mno-cygwin ?
 
 import:
   - arch/i386

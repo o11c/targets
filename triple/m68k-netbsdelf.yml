@@ -1,0 +1,9 @@
+triples:
+  - m68k-netbsdelf
+
+import:
+  - arch/m68k
+  - kernel/netbsd
+  - env/netbsd
+  - model/ilp32
+  - obj/elf

@@ -2,7 +2,7 @@ triples:
   - sparc64-openbsd
 
 import:
-  - arch/sparc64
+  - arch/sparc64_be
   - kernel/openbsd
   - env/openbsd
   - model/lp64

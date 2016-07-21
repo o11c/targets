@@ -1,0 +1,15 @@
+triples:
+  - avr-elf
+  - avr-none
+  - avr
+variants:
+  - avr-elf
+  - avr-rtems
+freestanding: true
+
+import:
+  - arch/avr
+  - kernel/none
+  - env/avr
+  - model/ip16
+  - obj/elf

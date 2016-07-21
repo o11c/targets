@@ -1,0 +1,10 @@
+triples:
+  - fr30-elf
+freestanding: true
+
+import:
+  - arch/fr30
+  - kernel/none
+  - env/none
+  - model/ilp32
+  - obj/elf

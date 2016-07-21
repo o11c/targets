@@ -1,0 +1,10 @@
+triples:
+  - iq2000-elf
+freestanding: true
+
+import:
+  - arch/iq2000
+  - kernel/none
+  - env/none
+  - model/ilp32
+  - obj/elf

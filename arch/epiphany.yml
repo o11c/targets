@@ -1,0 +1,5 @@
+arch: epiphany
+endian: little
+reg: 32
+cpp:
+  - __epiphany__

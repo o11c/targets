@@ -1,0 +1,13 @@
+triples:
+  - i386-rtems
+variants:
+  - i386-rtems
+  - x86_64-rtems
+variant_flags: -m32
+
+import:
+  - arch/i386
+  - kernel/rtems
+  - env/rtems
+  - model/ilp32
+  - obj/elf

@@ -1,0 +1,9 @@
+triples:
+  - nios2-rtems
+
+import:
+  - arch/nios2el
+  - kernel/rtems
+  - env/rtems
+  - model/ilp32
+  - obj/elf

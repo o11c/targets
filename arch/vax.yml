@@ -1,0 +1,6 @@
+arch: vax
+endian: little
+reg: 32
+cpp:
+  - __vax__
+  - ?__GFLOAT__

@@ -1,10 +1,19 @@
 triples:
   - arm-eabi
   - arm-none-eabi
-
 variants:
+  - arm-eabi
+  - arm-freebsd
+  - arm-linux-androideabi
   - arm-linux-gnueabi
-variant_flags: -ffreestanding -nostdlib -nostdinc
+  - arm-linux-gnueabihf
+  - arm-netbsdelf
+  - arm-rtems
+  - arm-symbianelf
+  - arm-uclinux_eabi
+  - arm-vxworks
+variant_flags: -march=armv4t -mabi=aapcs
+freestanding: true
 
 default_char_sign: unsigned
 

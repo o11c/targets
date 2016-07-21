@@ -1,0 +1,11 @@
+triples:
+  - arm-symbianelf
+
+default_char_sign: unsigned
+
+import:
+  - arch/armel_sf
+  - kernel/symbian
+  - env/symbian
+  - model/ilp32
+  - obj/elf

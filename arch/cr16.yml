@@ -1,0 +1,8 @@
+arch: cr16
+endian: little
+reg: 32
+cpp:
+  - __CR__
+  - __CR16__
+  - __CR16C__
+  - __CR16CP__

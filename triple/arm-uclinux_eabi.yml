@@ -1,0 +1,12 @@
+triples:
+  - arm-uclinux_eabi
+# TODO figure out variants
+
+default_char_sign: unsigned
+
+import:
+  - arch/armel_sf
+  - kernel/uclinux
+  - env/uclibc
+  - model/ilp32
+  - obj/elf

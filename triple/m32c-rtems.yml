@@ -1,0 +1,9 @@
+triples:
+  - m32c-rtems
+
+import:
+  - arch/m32c
+  - kernel/rtems
+  - env/rtems
+  - model/ip16
+  - obj/elf

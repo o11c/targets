@@ -1,0 +1,9 @@
+triples:
+  - ia64-hpux
+
+import:
+  - arch/itanium
+  - kernel/hpux
+  - env/hpux
+  - model/lp64
+  - obj/elf

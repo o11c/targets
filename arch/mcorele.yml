@@ -1,0 +1,8 @@
+arch: mcorele
+endian: little
+reg: 32
+cpp:
+  - __M340__
+  - __MCORELE__
+  - __MCORE__
+  - __mcore__

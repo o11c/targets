@@ -1,6 +1,7 @@
 triples:
   - sparc-linux-gnu
 variants:
+  - sparc-linux-gnu
   - sparc64-linux-gnu
 variant_flags: -m32
 

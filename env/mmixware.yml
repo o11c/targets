@@ -1,0 +1,6 @@
+libc: mmixware
+cpp:
+  - __mmix__
+  - __MMIX__
+  - __MMIX_ABI_MMIXWARE__
+  # incompatible with __MMIX_ABI_GNU__ without a thunk.

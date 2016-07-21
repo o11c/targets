@@ -2,6 +2,7 @@ triples:
   - hppa64-linux-gnu
 variants:
   - hppa-linux-gnu
+  - hppa64-linux-gnu
 variant_flags: -march=2.0
 
 import:

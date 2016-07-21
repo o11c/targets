@@ -1,0 +1,9 @@
+triples:
+  - alpha-netbsd
+
+import:
+  - arch/alpha
+  - kernel/netbsd
+  - env/netbsd
+  - model/lp64
+  - obj/elf

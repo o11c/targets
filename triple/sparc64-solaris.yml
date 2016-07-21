@@ -2,7 +2,7 @@ triples:
   - sparc64-solaris
 
 import:
-  - arch/sparc64
+  - arch/sparc64_be
   - kernel/solaris
   - env/solaris
   - model/lp64

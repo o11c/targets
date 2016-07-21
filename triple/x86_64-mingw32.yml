@@ -3,9 +3,12 @@ triples:
   - amd64-mingw32
   - x86_64-windows-gnu
   - amd64-windows-gnu
+  - x86_64-mingw64
+  - amd64-mingw64
 variants:
   - i386-mingw32
-variant_flags: -m64
+  - x86_64-mingw32
+variant_flags: -m64 # -mno-cygwin ?
 
 import:
   - arch/x86_64

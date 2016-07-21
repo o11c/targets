@@ -1,0 +1,10 @@
+triples:
+  - aarch64-rtems
+  - arm64-rtems
+
+import:
+  - arch/aarch64_le
+  - kernel/rtems
+  - env/rtems
+  - model/lp64
+  - obj/elf

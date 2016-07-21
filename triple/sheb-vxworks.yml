@@ -1,0 +1,10 @@
+triples:
+  - sheb-vxworks
+
+import:
+  - arch/sheb
+  - kernel/vxworks
+  - env/vxworks
+  - model/ilp32
+  - obj/elf
+

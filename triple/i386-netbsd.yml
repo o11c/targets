@@ -4,6 +4,11 @@ triples:
   - i586-netbsd
   - i686-netbsd
   - i786-netbsd
+  - i386-netbsdelf
+  - i486-netbsdelf
+  - i586-netbsdelf
+  - i686-netbsdelf
+  - i786-netbsdelf
 
 import:
   - arch/i386

@@ -1,0 +1,9 @@
+triples:
+  - sparc64-rtems
+
+import:
+  - arch/sparc64_be
+  - kernel/rtems
+  - env/rtems
+  - model/lp64
+  - obj/elf

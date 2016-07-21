@@ -1,0 +1,10 @@
+triples:
+  - ft32-elf
+freestanding: true
+
+import:
+  - arch/ft32
+  - kernel/none
+  - env/none
+  - model/ilp32
+  - obj/elf

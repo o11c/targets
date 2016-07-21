@@ -1,0 +1,13 @@
+triples:
+  - hppa-hpux
+variants:
+  - hppa-hpux
+  - hppa64-hpux
+variant_flags: -march=1.1
+
+import:
+  - arch/hppa
+  - kernel/hpux
+  - env/hpux
+  - model/ilp32
+  - obj/elf

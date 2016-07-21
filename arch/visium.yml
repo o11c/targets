@@ -1,0 +1,5 @@
+arch: visium
+endian: big
+reg: 32
+cpp:
+  - __VISIUM__

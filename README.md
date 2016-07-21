@@ -45,16 +45,9 @@ After imports are resolved, the following fields exist:
 ## Triples and Fragments that still need to be defined
 
 * special things like NaCl (native client) and emscripten (counts as a kernel)
-* android
-* more baremetal targets (currently just x86 and arm)
 * Pre-ELF formats?
-* other k\*BSD variants
-* {open,net,free,dragonfly}bsd, darwin/osx userlands.
+* dragonflybsd
 * WinCE
-* ia64
-* powerpc-spe
-* s390 (32-bit variant of s390x)
 * or1k
-* uclibc (and other libc) variants
-* Anything that GCC has a configuration for.
+* Anything else that GCC has a configuration for (see `gcc/config.gcc`).
 * Lots of ancient hardware and software. Look in `config.guess` for ideas.

@@ -1,0 +1,5 @@
+arch: lm32
+endian: big
+reg: 32
+cpp:
+  - __lm32__

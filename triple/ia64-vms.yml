@@ -1,0 +1,10 @@
+triples:
+  - ia64-vms
+
+import:
+  - arch/itanium
+  - kernel/vms
+  - env/vms
+  # !
+  - model/ilp32
+  - obj/elf

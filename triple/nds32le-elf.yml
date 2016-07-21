@@ -1,0 +1,14 @@
+triples:
+  - nds32le-elf
+variants:
+  - nds32be-elf
+  - nds32le-elf
+variant_flags: -mlittle-endian
+freestanding: true
+
+import:
+  - arch/nds32le
+  - kernel/none
+  - env/none
+  - model/ilp32
+  - obj/elf

@@ -1,6 +1,9 @@
-arch: hppa
+arch: hppa64
 endian: big
 reg: 64
 cpp:
   - __hppa__
   - _PA_RISC2_0
+  # I'm not completely sure or not whether variants are okay between hppa
+  # and hppa64. The GCC source is confusing, and there is no -m32 despite
+  # some evidence that ilp32 and lp64 forms both exist.

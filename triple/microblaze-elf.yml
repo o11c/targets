@@ -1,0 +1,16 @@
+triples:
+  - microblaze-elf
+variants:
+  - microblaze-elf
+  - microblazeel-elf
+  - microblaze-linux-gnu
+  - microblazeel-linux-gnu
+variant_flags: -mbig-endian
+freestanding: true
+
+import:
+  - arch/microblazeeb
+  - kernel/none
+  - env/none
+  - model/ilp32
+  - obj/elf

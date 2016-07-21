@@ -1,0 +1,10 @@
+triples:
+  - xtensa-linux-gnu
+
+default_char_sign: unsigned
+
+import:
+  - arch/xtensa_eb
+  - misc/linux-gnu
+  - model/ilp32
+  - obj/elf

@@ -1,0 +1,8 @@
+triples:
+  - vax-linux-gnu
+
+import:
+  - arch/vax
+  - misc/linux-gnu
+  - model/ilp32
+  - obj/elf

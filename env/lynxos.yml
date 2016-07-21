@@ -1,0 +1,4 @@
+libc: lynxos
+cpp:
+  - __unix__
+  - __Lynx__

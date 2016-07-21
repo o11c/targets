@@ -1,0 +1,12 @@
+triples:
+  - xstormy16-elf
+freestanding: true
+
+default_char_sign: unsigned
+
+import:
+  - arch/xstormy16
+  - kernel/none
+  - env/none
+  - model/ip16
+  - obj/elf

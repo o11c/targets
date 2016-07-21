@@ -1,0 +1,10 @@
+triples:
+  - mep-elf
+freestanding: true
+
+import:
+  - arch/mep
+  - kernel/none
+  - env/none
+  - model/ilp32
+  - obj/elf

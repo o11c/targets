@@ -1,0 +1,5 @@
+arch: ft32
+endian: little
+reg: 32
+cpp:
+  - __FT32__

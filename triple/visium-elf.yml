@@ -1,0 +1,12 @@
+triples:
+  - visium-elf
+freestanding: true
+
+default_char_sign: unsigned
+
+import:
+  - arch/visium
+  - kernel/none
+  - env/none
+  - model/ilp32
+  - obj/elf

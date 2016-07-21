@@ -1,0 +1,10 @@
+triples:
+  - spu-elf
+freestanding: true
+
+import:
+  - arch/spu
+  - kernel/none
+  - env/none
+  - model/ilp32
+  - obj/elf

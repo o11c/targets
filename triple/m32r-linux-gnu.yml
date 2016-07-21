@@ -1,0 +1,8 @@
+triples:
+  - m32r-linux-gnu
+
+import:
+  - arch/m32rbe
+  - misc/linux-gnu
+  - model/ilp32
+  - obj/elf

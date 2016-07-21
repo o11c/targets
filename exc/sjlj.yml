@@ -1,0 +1,3 @@
+exceptions: sjlj
+cpp:
+  - __USING_SJLJ_EXCEPTIONS__

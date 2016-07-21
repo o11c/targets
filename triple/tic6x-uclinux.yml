@@ -1,0 +1,12 @@
+triples:
+  - tic6x-uclinux
+  - c6x-uclinux
+variant_flags: -mlittle-endian
+freestanding: true
+
+import:
+  - arch/tic6x_le
+  - kernel/uclinux
+  - env/uclibc
+  - model/ilp32
+  - obj/elf

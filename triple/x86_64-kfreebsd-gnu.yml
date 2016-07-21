@@ -3,6 +3,7 @@ triples:
   - amd64-kfreebsd-gnu
 variants:
   - i386-kfreebsd-gnu
+  - x86_64-kfreebsd-gnu
 variant_flags: -m64
 
 import:

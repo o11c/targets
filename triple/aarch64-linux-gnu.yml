@@ -2,6 +2,7 @@ triples:
   - aarch64-linux-gnu
   - arm64-linux-gnu
 variants:
+  - aarch64-linux-gnu
   - aarch64_be-linux-gnu
 variant_flags: -mlittle-endian
 

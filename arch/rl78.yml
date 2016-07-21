@@ -1,0 +1,5 @@
+arch: rl78
+endian: little
+reg: 16
+cpp:
+  - __RL78__

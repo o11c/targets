@@ -1,0 +1,12 @@
+triples:
+  - powerpc-aix
+  - ppc-aix
+
+default_char_sign: unsigned
+
+import:
+  - arch/ppc32be
+  - kernel/aix
+  - env/aix
+  - model/ilp32
+  - obj/elf

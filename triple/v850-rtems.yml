@@ -1,0 +1,9 @@
+triples:
+  - v850-rtems
+
+import:
+  - arch/v850
+  - kernel/rtems
+  - env/rtems
+  - model/ilp32
+  - obj/elf

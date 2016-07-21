@@ -1,0 +1,4 @@
+cpp:
+  - __embedded__
+  # Why does this even exist?
+  - ?__simulator__

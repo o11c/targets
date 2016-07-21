@@ -1,0 +1,13 @@
+triples:
+  - cris-elf
+variants:
+  - cris-elf
+  - cris-linux-gnu
+freestanding: true
+
+import:
+  - arch/cris
+  - kernel/none
+  - env/none
+  - model/ilp32
+  - obj/elf

@@ -1,0 +1,14 @@
+triples:
+  - m32r-elf
+variants:
+  - m32r-elf
+  - m32r-linux-gnu
+  - m32r-rtems
+freestanding: true
+
+import:
+  - arch/m32rbe
+  - kernel/none
+  - env/none
+  - model/ilp32
+  - obj/elf

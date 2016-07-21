@@ -1,0 +1,5 @@
+arch: frv
+endian: big
+reg: 32
+cpp:
+  - __frv__

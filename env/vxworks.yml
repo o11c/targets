@@ -1,0 +1,5 @@
+libc: vxworks
+cpp:
+  - _WRS_KERNEL
+  - __VXWORKS__
+  - __vxworks

@@ -1,0 +1,8 @@
+triples:
+  - frv-linux-gnu
+
+import:
+  - arch/frv
+  - misc/linux-gnu
+  - model/ilp32
+  - obj/elf

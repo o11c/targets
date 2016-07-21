@@ -1,0 +1,6 @@
+libc: musl
+# does NOT have <gnu/libc-version.h>
+# also has `musl` in output of `gcc -v`
+cpp:
+  - __unix__
+  - __gnu_linux__

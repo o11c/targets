@@ -1,0 +1,8 @@
+arch: nios2el
+endian: little
+reg: 32
+cpp:
+  - __NIOS2__
+  - __nios2__
+  - __nios2_arch__ == 1
+  - __nios2_little_endian__

@@ -1,2 +1,4 @@
-# The COFF (and PE) object file format is used primarily on Windows
+# The COFF (and PE) object file format is used primarily on Windows now.
+# Historically COFF was a Unix thing though, before ELF overtook it.
+# (TODO should variants be split?)
 obj: coff

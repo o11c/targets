@@ -1,0 +1,5 @@
+# Linux without an MMU
+kernel: uclinux
+cpp:
+  - __uClinux__
+  - __linux__

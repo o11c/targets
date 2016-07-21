@@ -1,0 +1,10 @@
+triples:
+  - epiphany-elf
+freestanding: true
+
+import:
+  - arch/epiphany
+  - kernel/none
+  - env/none
+  - model/ilp32
+  - obj/elf

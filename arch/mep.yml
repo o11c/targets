@@ -1,0 +1,7 @@
+arch: mep
+endian: little
+reg: 32
+cpp:
+  - __MEP__
+  - __MeP__
+  - __mep__

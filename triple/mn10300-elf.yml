@@ -1,0 +1,18 @@
+triples:
+  - mn10300-elf
+  - am33-elf
+  - am33_2.0-elf
+  - am34-elf
+variants:
+  - mn10300-elf
+  - mn10300-linux-gnu
+freestanding: true
+
+default_char_sign: unsigned
+
+import:
+  - arch/mn10300
+  - kernel/none
+  - env/none
+  - model/ilp32
+  - obj/elf

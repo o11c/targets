@@ -1,0 +1,9 @@
+arch: xtensa_eb
+endian: big
+reg: 32
+cpp:
+  - __xtensa__
+  - __XTENSA__
+  - __XTENSA_EB__
+  - __XTENSA_SOFT_FLOAT__
+  - __XTENSA_WINDOWED_ABI__

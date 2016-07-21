@@ -2,4 +2,3 @@ libc: bionic
 cpp:
   - __unix__
   - __ANDROID__
-  - __STDC_HOSTED__ == 1

@@ -1,0 +1,9 @@
+triples:
+  - mipsisa32r2-rtems
+
+import:
+  - arch/mips32r2eb
+  - kernel/rtems
+  - env/rtems
+  - model/ilp32
+  - obj/elf

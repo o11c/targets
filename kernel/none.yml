@@ -1,3 +1,1 @@
 kernel: none
-cpp:
-  - __STDC_HOSTED__ == 0

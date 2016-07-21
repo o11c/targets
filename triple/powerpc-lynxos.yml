@@ -1,0 +1,12 @@
+triples:
+  - powerpc-lynxos
+  - ppc-lynxos
+
+default_char_sign: unsigned
+
+import:
+  - arch/ppc32be
+  - kernel/lynxos
+  - env/lynxos
+  - model/ilp32
+  - obj/elf

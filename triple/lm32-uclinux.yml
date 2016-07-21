@@ -1,0 +1,9 @@
+triples:
+  - lm32-uclinux
+
+import:
+  - arch/lm32
+  - kernel/uclinux
+  - env/uclibc
+  - model/ilp32
+  - obj/elf

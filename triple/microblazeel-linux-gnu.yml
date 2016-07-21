@@ -1,0 +1,12 @@
+triples:
+  - microblazeel-linux-gnu
+variants:
+  - microblaze-linux-gnu
+  - microblazeel-linux-gnu
+variant_flags: -mlittle-endian
+
+import:
+  - arch/microblazeel
+  - misc/linux-gnu
+  - model/ilp32
+  - obj/elf

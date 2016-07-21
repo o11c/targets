@@ -1,0 +1,9 @@
+triples:
+  - m32r-rtems
+
+import:
+  - arch/m32rbe
+  - kernel/rtems
+  - env/rtems
+  - model/ilp32
+  - obj/elf

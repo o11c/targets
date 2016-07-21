@@ -1,0 +1,10 @@
+arch: mn10300
+endian: little
+reg: 32
+cpp:
+  - ?__AM33__ == 2
+  - ?__AM33_2__
+  - __LIW__ || __NO_LIW__
+  - __SETLB__ || __NO_SETLB__
+  - __MN10300__
+  - __mn10300__

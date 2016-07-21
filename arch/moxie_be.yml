@@ -1,0 +1,7 @@
+arch: moxie_be
+endian: big
+reg: 32
+cpp:
+  - __moxie__
+  - __MOXIE__
+  - __MOXIE_BIG_ENDIAN__

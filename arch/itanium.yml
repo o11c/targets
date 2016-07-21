@@ -1,0 +1,6 @@
+arch: itanium
+endian: little
+reg: 64
+cpp:
+  - __ia64__
+  - __itanium__

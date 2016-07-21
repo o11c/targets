@@ -4,4 +4,3 @@ cpp:
   - __GO32__
   # But e.g. fork() is not implemented.
   - __unix__
-  - __STDC_HOSTED__ == 1

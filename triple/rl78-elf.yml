@@ -1,0 +1,10 @@
+triples:
+  - rl78-elf
+freestanding: true
+
+import:
+  - arch/rl78
+  - kernel/none
+  - env/none
+  - model/ip16
+  - obj/elf

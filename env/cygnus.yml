@@ -4,4 +4,3 @@ libc: newlib
 cpp:
   - __CYGWIN__
   - __unix__
-  - __STDC_HOSTED__ == 1

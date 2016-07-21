@@ -1,0 +1,9 @@
+triples:
+  - vax-netbsdelf
+
+import:
+  - arch/vax
+  - kernel/netbsd
+  - env/netbsd
+  - model/ilp32
+  - obj/elf

@@ -1,6 +1,0 @@
-arch: sh4
-endian: little
-reg: 32
-cpp:
-  - __sh__
-  - __SH4__

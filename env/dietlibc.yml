@@ -1,0 +1,4 @@
+libc: dietlibc
+cpp:
+  - __unix__
+#  - __dietlibc__

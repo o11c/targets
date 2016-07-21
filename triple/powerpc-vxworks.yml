@@ -1,0 +1,12 @@
+triples:
+  - powerpc-vxworks
+  - ppc-vxworks
+
+default_char_sign: unsigned
+
+import:
+  - arch/ppc32be
+  - kernel/vxworks
+  - env/vxworks
+  - model/ilp32
+  - obj/elf

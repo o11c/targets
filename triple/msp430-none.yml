@@ -1,0 +1,12 @@
+triples:
+  - msp430-none
+  - msp430-elf
+  - msp430
+freestanding: true
+
+import:
+  - arch/msp430
+  - kernel/none
+  - env/none
+  - model/ip16
+  - obj/elf

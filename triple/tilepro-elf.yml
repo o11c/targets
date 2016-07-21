@@ -1,0 +1,13 @@
+triples:
+  - tilepro-elf
+variants:
+  - tilepro-elf
+  - tilepro-linux-gnu
+freestanding: true
+
+import:
+  - arch/tilepro
+  - kernel/none
+  - env/none
+  - model/ilp32
+  - obj/elf

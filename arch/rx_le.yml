@@ -1,0 +1,6 @@
+arch: rx_le
+endian: little
+reg: 32
+cpp:
+  - __RX__
+  - __RX_LITTLE_ENDIAN__

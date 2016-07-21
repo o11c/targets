@@ -1,0 +1,9 @@
+triples:
+  - sparc-rtems
+
+import:
+  - arch/sparc
+  - kernel/rtems
+  - env/rtems
+  - model/ilp32
+  - obj/elf

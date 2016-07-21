@@ -1,0 +1,4 @@
+libc: interix
+cpp:
+  - __INTERIX
+  #- __unix__

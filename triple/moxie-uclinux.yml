@@ -1,0 +1,9 @@
+triples:
+  - moxie-uclinux
+
+import:
+  - arch/moxie_be
+  - kernel/uclinux
+  - env/uclibc
+  - model/ilp32
+  - obj/elf

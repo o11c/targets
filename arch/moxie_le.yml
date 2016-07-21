@@ -1,0 +1,7 @@
+arch: moxie_le
+endian: little
+reg: 32
+cpp:
+  - __moxie__
+  - __MOXIE__
+  - __MOXIE_LITTLE_ENDIAN__

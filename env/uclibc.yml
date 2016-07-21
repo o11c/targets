@@ -1,0 +1,4 @@
+libc: uclibc
+cpp:
+  - __unix__
+#  - __UCLIBC__

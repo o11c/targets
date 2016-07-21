@@ -2,4 +2,4 @@
 # The notable exceptions are Windows and Darwin.
 obj: elf
 cpp:
-  - __ELF__
+  - ?__ELF__

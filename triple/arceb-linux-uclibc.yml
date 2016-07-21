@@ -1,0 +1,15 @@
+triples:
+  - arceb-linux-uclibc
+variants:
+  - arc-linux-uclibc
+  - arceb-linux-uclibc
+variant_flags: -mbig-endian
+
+default_char_sign: unsigned
+
+import:
+  - arch/arceb
+  - kernel/linux
+  - env/uclibc
+  - model/ilp32
+  - obj/elf

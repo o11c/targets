@@ -1,0 +1,18 @@
+triples:
+  - powerpc-linux-gnu_spe
+  - ppc-linux-gnu_spe
+variants:
+  - powerpc-linux-gnu
+  - powerpc-linux-gnu_spe
+  - powerpcle-linux-gnu
+  - powerpc64-linux-gnu
+  - powerpc64le-linux-gnu
+variant_flags: -m32 -mbig-endian -mspe
+
+default_char_sign: unsigned
+
+import:
+  - arch/ppcspe
+  - misc/linux-gnu
+  - model/ilp32
+  - obj/elf

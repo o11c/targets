@@ -1,0 +1,16 @@
+triples:
+  - i386-knetbsd-gnu
+  - i486-knetbsd-gnu
+  - i586-knetbsd-gnu
+  - i686-knetbsd-gnu
+  - i786-knetbsd-gnu
+variants:
+  - i386-knetbsd-gnu
+  - x86_64-knetbsd-gnu
+variant_flags: -m32
+
+import:
+  - arch/i386
+  - misc/knetbsd-gnu
+  - model/ilp32
+  - obj/elf

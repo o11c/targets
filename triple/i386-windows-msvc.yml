@@ -5,6 +5,7 @@ triples:
   - i686-windows-msvc
   - i786-windows-msvc
 variants:
+  - i386-windows-msvc
   - x86_64-windows-msvc
 variant_flags: -m32
 

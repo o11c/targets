@@ -1,0 +1,10 @@
+triples:
+  - pdp11-aout
+freestanding: true
+
+import:
+  - arch/pdp11
+  - kernel/none
+  - env/none
+  - model/ip16
+  - obj/aout

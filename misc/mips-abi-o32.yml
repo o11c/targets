@@ -1,0 +1,9 @@
+cpp:
+  - __mips_o32 || _MIPS_SIM == ABI_O32
+  - _MIPS_SZINT == 32
+  - _MIPS_SZLONG == 32
+  - _MIPS_SZPTR == 32
+  - _MIPS_ISA == _MIPS_ISA_MIPS32
+
+import:
+  - model/ilp32

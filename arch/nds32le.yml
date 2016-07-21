@@ -1,0 +1,5 @@
+arch: nds32le
+endian: little
+reg: 32
+cpp:
+  - __nds32__

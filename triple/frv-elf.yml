@@ -1,0 +1,13 @@
+triples:
+  - frv-elf
+variants:
+  - frv-elf
+  - frv-linux-gnu
+freestanding: true
+
+import:
+  - arch/frv
+  - kernel/none
+  - env/none
+  - model/ilp32
+  - obj/elf

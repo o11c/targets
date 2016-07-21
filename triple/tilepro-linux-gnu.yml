@@ -1,0 +1,8 @@
+triples:
+  - tilepro-linux-gnu
+
+import:
+  - arch/tilepro
+  - misc/linux-gnu
+  - model/ilp32
+  - obj/elf

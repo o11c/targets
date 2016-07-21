@@ -1,0 +1,13 @@
+triples:
+  - v850-elf
+variants:
+  - v850-elf
+  - v850-rtems
+freestanding: true
+
+import:
+  - arch/v850
+  - kernel/none
+  - env/none
+  - model/ilp32
+  - obj/elf

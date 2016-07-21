@@ -1,0 +1,11 @@
+triples:
+  - nvptx-none
+  - nvptx
+freestanding: true
+
+import:
+  - arch/nvptx
+  - kernel/none
+  - env/none
+  - model/ilp32
+  - obj/elf

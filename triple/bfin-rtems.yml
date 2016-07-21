@@ -1,0 +1,9 @@
+triples:
+  - bfin-rtems
+
+import:
+  - arch/blackfin
+  - kernel/rtems
+  - env/rtems
+  - model/ilp32
+  - obj/elf

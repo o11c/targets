@@ -1,0 +1,14 @@
+triples:
+  - s390-linux-gnu
+variants:
+  - s390-linux-gnu
+  - s390x-linux-gnu
+variant_flags: -m31
+
+default_char_sign: unsigned
+
+import:
+  - arch/s390
+  - misc/linux-gnu
+  - model/ilp32
+  - obj/elf

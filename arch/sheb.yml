@@ -1,0 +1,7 @@
+arch: sheb
+endian: big
+reg: 32
+cpp:
+  - __sh__
+  #- __SH4__
+  - __BIG_ENDIAN__

@@ -1,0 +1,9 @@
+triples:
+  - mipsisa32r2-vxworks
+
+import:
+  - arch/mips32r2eb
+  - kernel/vxworks
+  - env/vxworks
+  - model/ilp32
+  - obj/elf

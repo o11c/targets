@@ -1,0 +1,5 @@
+libc: hpux
+cpp:
+  - __unix__
+  - __hpux__
+  - _HPUX_SOURCE

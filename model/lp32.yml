@@ -1,0 +1,5 @@
+# 16-bit model used classically (with far pointers by default)
+int: 16
+ptr: 32
+size: 32
+long: 32

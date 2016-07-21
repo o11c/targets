@@ -1,20 +1,21 @@
 triples:
   - mipsisa64r6-linux-gnuabin32
 variants:
-  - mips-linux-gnu
-  - mips-linux-gnueabi
-  - mipsel-linux-gnu
-  - mipsel-linux-gnueabi
-  - mips64-linux-gnuabin32
-  - mips64-linux-gnuabi64
-  - mips64-linux-gnuabio64
-  - mips64el-linux-gnuabin32
-  - mips64el-linux-gnuabi64
-  - mips64el-linux-gnuabio64
+  - mipsisa32r2-linux-gnu
+  - mipsisa32r2-linux-gnueabi
+  - mipsisa32r2el-linux-gnu
+  - mipsisa32r2el-linux-gnueabi
+  - mipsisa64r2-linux-gnuabin32
+  - mipsisa64r2-linux-gnuabi64
+  - mipsisa64r2-linux-gnuabio64
+  - mipsisa64r2el-linux-gnuabin32
+  - mipsisa64r2el-linux-gnuabi64
+  - mipsisa64r2el-linux-gnuabio64
   - mipsisa32r6-linux-gnu
   - mipsisa32r6-linux-gnueabi
   - mipsisa32r6el-linux-gnu
   - mipsisa32r6el-linux-gnueabi
+  - mipsisa64r6-linux-gnuabin32
   - mipsisa64r6-linux-gnuabi64
   - mipsisa64r6-linux-gnuabio64
   - mipsisa64r6el-linux-gnuabin32

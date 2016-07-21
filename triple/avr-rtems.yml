@@ -1,0 +1,11 @@
+triples:
+  - avr-rtems
+
+default_char_sign: unsigned
+
+import:
+  - arch/avr
+  - kernel/rtems
+  - env/rtems
+  - model/ip16
+  - obj/elf

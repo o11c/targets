@@ -1,0 +1,6 @@
+arch: mmix
+endian: big
+reg: 64
+cpp:
+  - __mmix__
+  - __MMIX__
