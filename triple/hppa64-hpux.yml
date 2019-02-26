@@ -1,9 +1,5 @@
 triples:
   - hppa64-hpux
-variants:
-  - hppa-hpux
-  - hppa64-hpux
-variant_flags: -march=2.0
 
 import:
   - arch/hppa64
